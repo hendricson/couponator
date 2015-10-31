@@ -1,0 +1,306 @@
+#slideshow-pager-ul-wrapper a {
+  color: #665c4b/*#1F406F*/;
+  display: block;
+  float: left;
+  text-decoration: none;  
+}
+
+#slideshow-pager-ul-wrapper a li {
+  color: #665c4b/*#1F406F*/;
+  text-decoration: none;
+}
+
+#SlideShowPaginate {
+  background: none repeat scroll 0 0 #edeee7;
+  color: #665c4b;/*#213D6B;*/
+  font-family: Arial,FreeSans,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 24px;
+  /*width: 700px;*/
+  /*overflow: hidden;*/
+}
+
+#SlideShowPaginate ul {
+  padding: 0px; margin: 0px;
+}
+
+#SlideShowPaginate ul li {
+  cursor: pointer;
+  display: block; 
+  float: left;
+  width: 42px;
+  text-align: center;
+} 
+#SlideShowPaginate ul li a {
+  color: #c56c5b/*#1F406F*/;
+  text-decoration: none;
+}
+
+#SlideShowPaginate #LeftArrow {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 42px -144px #dfdfc7/*#49B5EE*/;
+  width: 100px;
+  height: 24px;
+  position: relative;
+  float: left;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
+#SlideShowPaginate .first-page #LeftArrow, #SlideShowPaginate .alone-page #LeftArrow {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 42px 6px #DBDBDB;
+  width: 100px;
+  height: 24px;
+  position: relative;
+  float: left;
+  top: 0px;
+  left: 0px;
+  cursor: default;
+}
+
+#SlideShowPaginate #RightArrow {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 45px -94px #dfdfc7/*#49B5EE*/;
+  width: 100px;
+  height: 24px;
+  float: right;
+  cursor: pointer;
+}
+
+#SlideShowPaginate .last-page #RightArrow, #SlideShowPaginate .alone-page #RightArrow {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 45px -44px #DBDBDB;
+  width: 100px;
+  height: 24px;
+  float: right;
+  cursor: default;
+}
+
+#slideshow-beautytip-data {
+  display: none;
+}
+
+
+.state-enabled {
+  background: none repeat scroll 0 0 #a0d633/*#C0DDf9*/;
+}
+
+
+#SlideShowPaginate ul li:hover {
+  background: none repeat scroll 0 0 #a0d633/*#C0DDf9*/; 
+}
+
+#slider_slideshow_content .SlideshowSlideSource {
+  color: #6d6d6d;
+  font-size: 12px;
+  font-style: italic;
+  margin: 5px 0px;
+}
+
+.post-story.blog-post-preview p.first-abzac {
+  margin-top: 0px;
+}
+
+#article-link {
+  float: left;
+  width: 80px;
+  m.argin-left: 100px;
+  text-align: center;
+}
+#article-link:hover {
+  background-color: #C0DDf9;  
+}
+
+#slideshow-pager-ul-wrapper {
+  /*width: 420px;*/
+  overflow: hidden;
+  float: left;
+}
+
+#SlideShowPaginate .s-enable {
+  background-color: #a0d633/*#C0DDf9*/;  
+}
+
+#SlideShowPaginate span a {
+  color: #1F406F;
+  text-decoration: none;
+}
+
+#slider_slideshow_content #lupa {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: url('http://www.ipanda.org/i/pagging-lupa.png') no-repeat;
+  width: 23px;
+  height: 23px;
+}
+
+#im1 {
+  float: left; 
+  margin-right: 4px;
+}
+
+#im2 {
+  float: left; 
+  margin: 12px auto; 
+  margin-right: 4px; 
+}
+
+#im3 {
+  float: left; 
+  margin: 20px auto;
+}
+
+ #SlideShowPaginate a span#LeftArrow .ov:hover {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 42px -144px #49B5EE;
+  cursor: pointer;
+}
+
+ #SlideShowPaginate a span#RightArrow .ov:hover {
+  background: url("http://www.ipanda.org/i/pagging-datatable-pager.png") no-repeat scroll 45px -94px #49B5EE;
+  cursor: pointer;
+}
+
+a.sortthumb {
+	display:block;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-right:10px;
+}
+
+#sorthumbs_comby,
+#sorthumbs_comby_selected
+ {
+	background:url(http://www.ipanda.org/i/sort_comby.png) no-repeat;
+	display:block;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-right:10px;
+}
+
+#sorthumbs_comby_selected,
+#sorthumbs_comby:hover {
+	background:url(http://www.ipanda.org/i/sort_comby_s.png) no-repeat;
+}
+
+#sorthumbs_images,
+#sorthumbs_images_selected {
+	background:url(http://www.ipanda.org/i/sort_images.png) no-repeat;
+	display:block;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-right:10px;
+}
+
+#sorthumbs_images_selected,
+#sorthumbs_images:hover {
+	background:url(http://www.ipanda.org/i/sort_images_s.png) no-repeat;
+}
+
+#sorthumbs_lines,
+#sorthumbs_lines_selected {
+	background:url(http://www.ipanda.org/i/sort_lines.png) no-repeat;
+	display:block;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-right:10px;
+}
+
+#sorthumbs_lines_selected,
+#sorthumbs_lines:hover {
+	background:url(http://www.ipanda.org/i/sort_lines_s.png) no-repeat;
+}
+
+/* Gallery view */
+
+#listAds {
+	position:relative;
+}
+
+.listAdsBox {
+	float: left; 
+	margin:10px;
+	display: inline-block;
+	vertical-align: top; 
+	height: 195px;
+	/*width: 200px;
+	height: 144px;
+	border: 1px solid;*/
+	overflow: hidden; 
+}
+
+.listAdsBoxDescription {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.listAdsBoxDescription:hover {
+	text-decoration:none;
+}
+
+.listAdsBoxOuter {
+	width: 200px;
+	height: 144px;
+	border: 1px solid #d7d9c9;
+	overflow: hidden; 
+}
+
+.listAdsBoxInner {
+   height: 500%;
+   width: 100%;
+   top: -200%;
+}
+ 
+.listAdsBoxInner img {
+   display: block;
+   width: 100%;
+   height: auto;
+   left: 0; top: 0; bottom: 0; right: 0;
+   margin: auto;
+   /*opacity: .5; */
+   }
+   
+.listAdsBoxInner img:hover {
+   /*opacity: 1; */
+   }  
+   
+.adsperpage_tab {
+	float:right;
+	margin-right:9px;
+	font-size:0.9em;
+}
+
+.adsperpage_tab a {
+	color: #666666;
+    text-decoration: underline;
+}
+
+.adsperpage_tab a:hover {
+    text-decoration: none;
+}
+
+.adsperpage_tab a.selected {
+	color: #7ECC30;
+    text-decoration: underline;
+}
+
+.adsperpage_tab a.selected:hover {
+    text-decoration: none;
+}
+
+ul.categorylist{
+  overflow:hidden;
+}
+ul.categorylist li{
+  line-height:1.5em;
+  float:left;
+  display:inline;
+}
+#double li  { width:50%;} /* 2 col */
+#triple li  { width:33.333%; } /* 3 col */
+#quad li    { width:25%; } /* 4 col */
+#six li     { width:16.666%; }/* 6 col */

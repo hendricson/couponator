@@ -1,0 +1,85 @@
+.sidebar .merchantintro .inner{padding-top:17px}
+.merchantintro h3{line-height:1.2em;margin-bottom:5px;font-size:18px;color:#444;text-shadow:0 1px 0 #fff}
+.merchantintro h4{font-size:18px;color:#444;text-shadow:0 1px 0 #fff;margin:0}
+.merchantintro .theStagg{float:left;margin-left:-40px}
+.merchantintro .nextToTheStagg{padding-left:105px;margin-top:0}
+.merchantintro ul{border-top:1px solid #e3e3e3;list-style:none;margin:0}
+.merchantintro ul li{padding:20px 0;border-top:1px solid #f9fafa;border-bottom:1px solid #e3e3e3}
+.merchantintro ul li.code-tested{background:url(../images/about-merchant-sprite.png) 3px -54px no-repeat;padding-left:55px}
+.merchantintro ul li.where-to-enter{background:url(../images/about-merchant-sprite.png) 3px -120px no-repeat;padding-left:55px}
+.merchantintro ul li.official-website{background:url(../images/about-merchant-sprite.png) 3px 22px no-repeat;padding-left:55px;border-bottom:1px solid #e3e3e3;padding-bottom:0;border-bottom:0}
+.merchantintro ul li:last-child{border-bottom:0;padding-bottom:0}
+
+.readmore-on{padding-bottom:20px}
+.readmore-on .readmore-merchantintro,.readmore-on .readless-merchantintro{white-space:nowrap}[href="#average-how"] ~ .tooltip{width:200px;right:10000px;top:80px}[href="#average-how"] ~ .tooltip .pointer{left:90px}[href="#average-how"] ~ .tooltip.active,[href="#average-how"] ~ .tooltip:hover,[href="#average-how"] ~ .tooltip.active:hover{top:60px;right:70px;opacity:1}
+
+.block.mw-static .inner{padding:0}
+.block.mw-static img{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.block.mw-static .readmore{bottom:0;width:auto;margin-left:0;background-position:30% center}
+
+.forrester .bootstrap h3{margin-top:0}p{font-size:13px;font-weight:300;margin:0 0 20px}ul,ol{padding:0;margin:0 0 .625em 25px}ul ul,ul ol,ol ol,ol ul{margin-bottom:0}
+ul.unstyled{margin-left:0;list-style:none}
+
+.merchant-page .eightcol h1{font-size:26px;line-height:1.4em;float:left;margin-top:12px;width:79%}
+.how-to-page .eightcol h1,.individual-offer .eightcol h1{margin-top:25px}
+.merchant-page .eightcol h1 b{color:#3a3a3a;font-weight:normal}
+.merchant-page .eightcol hgroup h2{font-size:15px;line-height:18px;color:#828282;width:79%;float:left}
+.merchant-page .eightcol hgroup .icon-title+h2{margin:-30px 0 30px 42px;padding:0 0 0 111px}
+.merchant-page hgroup{position:relative}
+.merchant-title.left-col{float:left;width:20%;padding:0 3.110419906687% 0 3.888024883359%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin-left:4px}
+.merchant-title.left-col .merchant-logo,.merchant-logo.standalone{border-bottom:1px solid #d0d0d0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.1),transparent 0 0 0;-moz-box-shadow:0 2px 5px rgba(0,0,0,0.1),transparent 0 0 0;box-shadow:0 2px 5px rgba(0,0,0,0.1),transparent 0 0 0}
+
+.merchant-page .merchantintro ul li:before,.merchant-page .icon-title.equal:before,.merchant-page .icon-title.expired-offers:before,.merchant-page .social ul li a,.merchant-page .merchantintro.code-tested .inner:before,.merchant-page aside.back-to-top a span:before{background-image:url(../images/merchant-page.png)!important}
+.merchant-page .merchantintro ul li,.merchant-page aside.back-to-top a span,.merchant-page .icon-title.equal,.merchant-page .icon-title.expired-offers{background:0}
+.merchant-page .merchantintro ul li,.merchant-page .icon-title.equal,.merchant-page .icon-title.expired-offers{padding-left:0}
+.merchant-page .merchantintro ul li:before,.merchant-page .merchantintro.code-tested .inner:before{content:'';background-position:0 0;width:35px;height:35px;float:left;margin:5px 15px 10px 0}
+.merchant-page .merchantintro ul li.where-to-enter:before{background-position:0 -70px}
+.merchant-page .merchantintro ul li.code-tested:before{background-position:0 -35px}
+.merchant-page .merchantintro ul li.average-saving:before{content:none}
+.merchant-page .merchantintro ul li.where-to-enter p{margin-bottom:0;padding-left:50px}
+.icon-title.equal,.icon-title.expired-offers{background-position:0 -246px}
+.merchant-page .icon-title.equal:before,.merchant-page .icon-title.expired-offers:before{content:'';background-position:-36px -42px;padding-bottom:2px;margin-bottom:48px;margin-right:15px;width:40px;height:40px;float:left}
+.merchant-page .icon-title.expired-offers:before{background-position:-36px 0}
+.merchant-page .cross-links .left-col{background:0}
+.merchant-page .cross-links .left-col:before{content:'';background:url(../images/merchant-page.png) no-repeat;background-position:-81px -1px;width:64px;height:64px;margin:20px 11%;float:left}
+.merchant-page aside.back-to-top a span:before{content:'';display:inline-block;background-position:-213px -1px;width:14px;height:9px;margin-right:10px}
+.merchant-page .social ul li a.facebook{background-position:0 -109px}
+.merchant-page .social ul li a.facebook:hover{background-position:0 -637px}
+.merchant-page .social ul li a.twitter{background-position:-56px -109px}
+.merchant-page .social ul li a.twitter:hover{background-position:-56px -637px}
+.merchant-page .social ul li a.google{background-position:-112px -109px}
+.merchant-page .social ul li a.google:hover{background-position:-112px -637px}
+.merchant-page .social ul li a.vcapp{background-position:-168px -573px}
+.merchant-page .social ul li a.vcapp:hover{background-position:-168px -637px}
+.merchant-page .merchantintro.code-tested .inner:before{background-position:0 -35px}
+.merchant-page .merchantintro.code-tested .inner{background:url("") no-repeat scroll 193px -19px #fafafa}
+
+.block{font-size:13px;font-weight:300;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;text-shadow:0 1px 0 rgba(255,255,255,0.9);padding:6px;background:#f3f3f3;margin-bottom:30px;-webkit-transition:.3s;-moz-transition:.3s;-ms-transition:.3s;-o-transition:.3s;transition:.3s}
+.block:hover{background:#e5f1fa;-webkit-transition:.3s;-moz-transition:.3s;-ms-transition:.3s;-o-transition:.3s;transition:.3s}
+.block .inner{background:#fafafa;border:1px solid #d0d0d0;padding:10px 20px 20px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.block h2{border-bottom:1px solid #e8e8e8;padding-bottom:10px;margin-bottom:20px}
+.block p{margin-top:10px;margin-bottom:0}
+.block *+p{margin-top:0;margin-bottom:20px}
+.block.simplelist h2,.block.voucher-list h2,.block.vertical-tabs h2{text-shadow:0 1px 0 rgba(255,255,255,0.9);padding:0 22px;margin:0 0 30px 0;border:0}
+.block.simplelist h2.icon-title,.block.voucher-list h2.icon-title,.block.vertical-tabs h2.icon-title{padding:2px 30px 5px 60px;margin-left:20px}
+.block.simplelist .inner,.block.voucher-list .inner,.block.vertical-tabs .inner{padding:30px 0 0 0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;overflow:hidden}
+.block.simplelist ul,.block.voucher-list ul,.block.vertical-tabs ul{list-style-type:none;margin:0;background:url(../images/bg-white-linen.jpg) repeat;border-top:1px solid #e8e8e8}
+.block.simplelist li,.block.voucher-list li,.block.vertical-tabs li{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.block.simplelist .border-wrapper,.block.voucher-list .border-wrapper,.block.vertical-tabs .border-wrapper{display:block;overflow:hidden;border:1px solid #d0d0d0;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;float:left;margin:0 10px 10px 0;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25),transparent 0 0 0;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.25),transparent 0 0 0;box-shadow:0 1px 3px rgba(0,0,0,0.25),transparent 0 0 0;-webkit-box-shadow:0 0 25px rgba(0,0,0,0.5),transparent 0 0 0;-moz-box-shadow:0 0 25px rgba(0,0,0,0.5),transparent 0 0 0;box-shadow:0 0 25px rgba(0,0,0,0.5),transparent 0 0 0}
+.block.simplelist .inner{padding-top:10px}
+.block.simplelist h2{margin-bottom:5px;font-weight:300}
+.block.simplelist ul{border-top:0;margin-bottom:10px}
+.block.simplelist li{display:block}
+.block.simplelist li a{display:block;border-bottom:1px solid #e8e8e8;padding:5px 10px 5px 20px;cursor:pointer;text-decoration:none}
+.block.simplelist li a:last-of-type{border-bottom:0}
+.block.simplelist li a:hover{text-decoration:underline}
+.block.simplelist li.heading{background:0;padding:10px 0 10px 20px;font-size:15px}
+.block.simplelist li.heading:hover{background:0}
+.block.simplelist li a:hover{text-decoration:underline}
+.block.viewall{margin-top:30px}
+.block.viewall .inner{padding-bottom:0}
+.block.viewall ul{overflow:hidden;background:url(../images/ico-64-glasses.png) left center no-repeat;margin-left:20px;padding:10px 0 10px 80px;list-style-type:none}
+.block.viewall ul li{padding:0 10px;float:left;margin:20px 0}
+.block.viewall ul li+li{border-left:1px solid #acacac}
+.sticky-wrapper{position:relative}
+#sticky-nav{position:absolute;right:0}

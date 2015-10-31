@@ -1,0 +1,40 @@
+AddType application/zip .sql .txt 
+AddDefaultCharset UTF-8
+
+#Redirect 301 ^/Automobile/Tyres/tyre-shopper.php.?[SITE_URL]/Vehicles-Parts-and-Accessories/Auto-Care/tyre-shopper.php?
+#Redirect 301 ^/Consumer/Entertainment/play.com.php.?[SITE_URL]/Gifts-Gadgets-and-Toys/play.com.php?
+#Redirect 301 ^/Automobile/Tyres/national-tyres-and-autocare.html.?[SITE_URL]/Vehicles-Parts-and-Accessories/Auto-Care/national-tyres-and-autocare.html?
+#Redirect 301 ^/Consumer/Entertainment/buyagift.html.?[SITE_URL]/Gifts-Gadgets-and-Toys/buyagift.html?
+
+RewriteEngine On
+RewriteBase [PATH_ROOT]
+
+RewriteCond %{REQUEST_URI} !(includes|images|templates|\.png|\.js|\.jpg|\.css)/?
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([^/]+\.html)$ index.php?type=base&mod=companies&what=page&cat=$1/$2/$3&page=$4 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([^/]+\.php)$ index.php?type=base&mod=companies&what=page&cat=$1/$2/$3&page=$4 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([^/]+\.html)$ index.php?type=base&mod=companies&what=page&cat=$1/$2&page=$3 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([^/]+\.php)$ index.php?type=base&mod=companies&what=page&cat=$1/$2&page=$3 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+\.html)$ index.php?type=base&mod=companies&what=page&cat=$1&page=$2 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([^/]+\.php)$ index.php?type=base&mod=companies&what=page&cat=$1&page=$2 [NC]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?type=base&mod=companies&cat=$1/$2/$3 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?type=base&mod=companies&cat=$1/$2 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?type=base&mod=companies&cat=$1 [NC]
+
+# If the requested path and file is not /index.php and the request
+# has not already been internally rewritten to the index.php script
+RewriteCond %{REQUEST_URI} !^/index\.php
+
+# and the request is for something within the component folder,
+# or for the site root, or for an extensionless URL, or the
+# requested URL ends with one of the listed extensions
+RewriteCond %{REQUEST_URI} /component/|(/[^.]*|\.(php|html?|feed|pdf|vcf|raw))$ [NC]
+
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# internally rewrite the request to the index.php script
+RewriteRule .* index.php [L] 
