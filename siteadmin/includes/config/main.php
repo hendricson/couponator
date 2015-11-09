@@ -1,6 +1,6 @@
 <?php
 /** DB Params */
-define('DB_TYPE',   'mysql');         // allow 'mysql','mssql','pgsql' etc. (compatible with PEAR)
+define('DB_TYPE',   'mysqli');         // allow 'mysql','mssql','pgsql' etc. (compatible with PEAR)
 define('DB_MYSQL_VER', 4.1);          // MySQL Version
 define('DB_HOST',   'localhost');     // mysql-server name
 define('DB_USER',   '');          // existing user of database
@@ -10,7 +10,7 @@ define( 'TB',       'cp_' );          // prefix for all tables for this databas
 
 //define('OS', 'NIX');
 /** Site Config */	
-define('SEF'	        , 0);
+define('SEF'	        , 1);
 define('DOMAIN'         , 'localhost');
 define('SITE_URL'       , 'http://localhost/couponator');
 define('PATH_ROOT'      , '/couponator/');    // Site root path

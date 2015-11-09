@@ -25,7 +25,6 @@ if (!empty($_REQUEST[SESSION_NAME]))
 {
     session_id( $_REQUEST[SESSION_NAME] );
 }
-//session_set_cookie_params(14400, '/', '');
 
 session_name(SESSION_NAME);
 session_save_path(BPATH.'tmp/sessions');
@@ -45,7 +44,6 @@ include 'Model/Pear/DB.php';
 try
 {
     $glObj['gDb'] = @DB::connect(DB_TYPE.'://'.DB_USER.':'.DB_PASS.'@'.DB_HOST.'/'.DB_NAME); // select db type
-   // echo "glObj=<pre>";print_r($glObj);echo "</pre><hr>";
 }
 catch (Exception $exc)
 {
