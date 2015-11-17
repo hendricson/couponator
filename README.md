@@ -1,6 +1,8 @@
 # couponator
 A prototype CMS for building a coupon site with automatically generated listings. I created this prototype back in 2011 and have not found any use for it, thought it would make a nice start for my GitHub portfolio.
 
+Demo: [http://hendricson.com/demo/couponator/](http://hendricson.com/demo/couponator/)
+
 ## SETTING UP YOUR WEBSITE
 
 1. Make a local copy of the Couponator
